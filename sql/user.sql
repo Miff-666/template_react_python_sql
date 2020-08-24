@@ -1,0 +1,10 @@
+-- Role: template
+-- DROP ROLE template;
+
+CREATE ROLE template WITH
+  LOGIN
+  NOSUPERUSER
+  INHERIT
+  NOCREATEDB
+  NOCREATEROLE
+  NOREPLICATION;

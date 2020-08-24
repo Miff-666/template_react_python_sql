@@ -1,0 +1,35 @@
+db:
+  host: localhost
+  port: 5432
+  user: template
+  password: iZfXx2ANig
+  database: template
+
+server:
+  host: 127.0.0.1
+  port: 10000
+
+logging:
+  version: 1
+  disable_existing_loggers: False
+
+  formatters:
+    simple:
+      format: "hollihop - %(asctime)s - %(name)s - %(levelname)s - %(message)s"
+      datefmt: "%Y-%m-%d %H:%M:%S"
+
+  handlers:
+    standart:
+      class: logging.handlers.SysLogHandler
+      level: DEBUG
+      formatter: simple
+      address: [127.0.0.1, 514]
+    console:
+      class: logging.StreamHandler
+      level: DEBUG
+      formatter: simple
+      stream: ext://sys.stdout
+
+  root:
+    level: DEBUG
+    handlers: [console, standart]

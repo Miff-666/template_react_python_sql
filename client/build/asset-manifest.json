@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/livetex/static/css/main.f4f02fc1.chunk.css",
+    "main.js": "/livetex/static/js/main.3818584b.chunk.js",
+    "main.js.map": "/livetex/static/js/main.3818584b.chunk.js.map",
+    "runtime-main.js": "/livetex/static/js/runtime-main.136ae4a7.js",
+    "runtime-main.js.map": "/livetex/static/js/runtime-main.136ae4a7.js.map",
+    "static/css/2.c27a359e.chunk.css": "/livetex/static/css/2.c27a359e.chunk.css",
+    "static/js/2.46c8d646.chunk.js": "/livetex/static/js/2.46c8d646.chunk.js",
+    "static/js/2.46c8d646.chunk.js.map": "/livetex/static/js/2.46c8d646.chunk.js.map",
+    "index.html": "/livetex/index.html",
+    "precache-manifest.92e34666e7c5e27263bb477071397f34.js": "/livetex/precache-manifest.92e34666e7c5e27263bb477071397f34.js",
+    "service-worker.js": "/livetex/service-worker.js",
+    "static/css/2.c27a359e.chunk.css.map": "/livetex/static/css/2.c27a359e.chunk.css.map",
+    "static/css/main.f4f02fc1.chunk.css.map": "/livetex/static/css/main.f4f02fc1.chunk.css.map",
+    "static/js/2.46c8d646.chunk.js.LICENSE.txt": "/livetex/static/js/2.46c8d646.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.136ae4a7.js",
+    "static/css/2.c27a359e.chunk.css",
+    "static/js/2.46c8d646.chunk.js",
+    "static/css/main.f4f02fc1.chunk.css",
+    "static/js/main.3818584b.chunk.js"
+  ]
+}
